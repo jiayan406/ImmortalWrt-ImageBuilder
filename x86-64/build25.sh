@@ -78,10 +78,10 @@ PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 PACKAGES="$PACKAGES luci-app-nikki"
 PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
 
-PACKAGES="$PACKAGES luci-app-turboacc"
-PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
-PACKAGES="$PACKAGES luci-app-momo"
-PACKAGES="$PACKAGES luci-i18n-momo-zh-cn"
+#PACKAGES="$PACKAGES luci-app-turboacc"
+#PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
+#PACKAGES="$PACKAGES luci-app-momo"
+#PACKAGES="$PACKAGES luci-i18n-momo-zh-cn"
 
 
 # 判断是否需要编译 Docker 插件
