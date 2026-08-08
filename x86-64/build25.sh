@@ -55,14 +55,18 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #25.12
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES openssh-sftp-server"
+#PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 文件管理器
-PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # ======== shell/apk-custom-packages.sh =======
 # 合并imm仓库以外的第三方插件 暂时注释
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
-
+PACKAGES="$PACKAGES luci-app-passwall-zh-cn"
+PACKAGES="$PACKAGES luci-app-openclash-zh-cn"
+PACKAGES="$PACKAGES luci-app-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-app-appfilter-zh-cn"
+PACKAGES="$PACKAGES luci-app-daed-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
