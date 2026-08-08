@@ -65,7 +65,7 @@ PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
 PACKAGES="$PACKAGES luci-app-passwall"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-openclash-zh-cn"
+
 PACKAGES="$PACKAGES luci-app-ddns"
 PACKAGES="$PACKAGES luci-app-appfilter"
 PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
