@@ -68,6 +68,8 @@ PACKAGES="$PACKAGES luci-app-openclash"
 
 PACKAGES="$PACKAGES luci-app-ddns"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES ddns-scripts-aliyun"
+
 PACKAGES="$PACKAGES luci-app-appfilter"
 PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
 PACKAGES="$PACKAGES luci-app-daed"
