@@ -63,6 +63,18 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
 
+PACKAGES="$PACKAGES luci-app-passwall"
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+PACKAGES="$PACKAGES luci-app-openclash"
+
+PACKAGES="$PACKAGES luci-app-ddns"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES ddns-scripts-aliyun"
+
+PACKAGES="$PACKAGES luci-app-appfilter"
+PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+PACKAGES="$PACKAGES luci-app-daede"
+#PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
