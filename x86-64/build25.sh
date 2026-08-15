@@ -72,8 +72,10 @@ PACKAGES="$PACKAGES ddns-scripts-aliyun"
 
 PACKAGES="$PACKAGES luci-app-appfilter"
 PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
-PACKAGES="$PACKAGES luci-app-daed"
-PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-daede"
+#PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
+
 PACKAGES="$PACKAGES luci-app-ssr-plus"
 PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 
