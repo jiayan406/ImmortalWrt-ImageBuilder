@@ -55,7 +55,7 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #25.12
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES openssh-sftp-server"
+#PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
@@ -63,6 +63,30 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 合并imm仓库以外的第三方插件 暂时注释
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
 
+PACKAGES="$PACKAGES luci-app-passwall"
+PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+PACKAGES="$PACKAGES luci-app-openclash"
+
+#PACKAGES="$PACKAGES luci-app-ddns"
+#PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+#PACKAGES="$PACKAGES ddns-scripts-aliyun"
+
+PACKAGES="$PACKAGES luci-app-appfilter"
+PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-daede"
+#PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-ssr-plus"
+PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-nikki"
+PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
+
+#PACKAGES="$PACKAGES luci-app-turboacc"
+#PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
+#PACKAGES="$PACKAGES luci-app-momo"
+#PACKAGES="$PACKAGES luci-i18n-momo-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
