@@ -72,7 +72,7 @@ PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 PACKAGES="$PACKAGES ddns-scripts-aliyun"
 
 PACKAGES="$PACKAGES luci-app-timecontrol"
-PACKAGES="$PACKAGES luci-i18n-timecontrol-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-timecontrol-zh-cn"
 PACKAGES="$PACKAGES luci-app-daede"
 #PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
 
