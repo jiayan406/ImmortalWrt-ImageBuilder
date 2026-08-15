@@ -74,9 +74,9 @@ PACKAGES="$PACKAGES ddns-scripts-aliyun"
 PACKAGES="$PACKAGES luci-app-bandix"
 PACKAGES="$PACKAGES luci-i18n-bandix-zh-cn"
 
-PACKAGES="$PACKAGES luci-app-timecontrol"
+#PACKAGES="$PACKAGES luci-app-timecontrol"
 #PACKAGES="$PACKAGES luci-i18n-timecontrol-zh-cn"
-PACKAGES="$PACKAGES luci-app-daede"
+#PACKAGES="$PACKAGES luci-app-daede"
 #PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
 
 # 判断是否需要编译 Docker 插件
