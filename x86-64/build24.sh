@@ -65,11 +65,14 @@ PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
 
 PACKAGES="$PACKAGES luci-app-passwall"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
-#PACKAGES="$PACKAGES luci-app-openclash"
+PACKAGES="$PACKAGES luci-app-openclash"
 
 PACKAGES="$PACKAGES luci-app-ddns"
 PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 PACKAGES="$PACKAGES ddns-scripts-aliyun"
+
+PACKAGES="$PACKAGES luci-app-bandix"
+PACKAGES="$PACKAGES luci-i18n-bandix-zh-cn"
 
 PACKAGES="$PACKAGES luci-app-timecontrol"
 #PACKAGES="$PACKAGES luci-i18n-timecontrol-zh-cn"
