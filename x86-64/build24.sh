@@ -86,7 +86,7 @@ PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 PACKAGES="$PACKAGES luci-app-nikki"
 PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
 
-PACKAGES="$PACKAGES luci-app-timecontrol"
+#PACKAGES="$PACKAGES luci-app-timecontrol"
 #PACKAGES="$PACKAGES luci-i18n-timecontrol-zh-cn"
 
 
