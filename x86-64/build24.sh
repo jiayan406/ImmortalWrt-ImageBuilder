@@ -74,10 +74,21 @@ PACKAGES="$PACKAGES ddns-scripts-aliyun"
 PACKAGES="$PACKAGES luci-app-bandix"
 PACKAGES="$PACKAGES luci-i18n-bandix-zh-cn"
 
-#PACKAGES="$PACKAGES luci-app-timecontrol"
+PACKAGES="$PACKAGES luci-app-appfilter"
+PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-daed"
+PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-ssr-plus"
+PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-nikki"
+PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-timecontrol"
 #PACKAGES="$PACKAGES luci-i18n-timecontrol-zh-cn"
-#PACKAGES="$PACKAGES luci-app-daede"
-#PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
+
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
