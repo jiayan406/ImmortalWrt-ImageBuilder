@@ -62,8 +62,8 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # ======== shell/apk-custom-packages.sh =======
 # 合并imm仓库以外的第三方插件 暂时注释
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
-PACKAGES="$PACKAGES luci-app-passwall"
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+#PACKAGES="$PACKAGES luci-app-passwall"
+#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 
 PACKAGES="$PACKAGES luci-app-ddns"
