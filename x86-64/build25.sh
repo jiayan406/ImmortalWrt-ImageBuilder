@@ -63,25 +63,25 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 合并imm仓库以外的第三方插件 暂时注释
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
 
-PACKAGES="$PACKAGES luci-app-passwall"
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+#PACKAGES="$PACKAGES luci-app-passwall"
+#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 
-PACKAGES="$PACKAGES luci-app-ddns"
-PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
-PACKAGES="$PACKAGES ddns-scripts-aliyun"
+#PACKAGES="$PACKAGES luci-app-ddns"
+#PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+#PACKAGES="$PACKAGES ddns-scripts-aliyun"
 
-PACKAGES="$PACKAGES luci-app-appfilter"
-PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
+#PACKAGES="$PACKAGES luci-app-appfilter"
+#PACKAGES="$PACKAGES luci-i18n-appfilter-zh-cn"
 
-PACKAGES="$PACKAGES luci-app-daed"
-PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
+#PACKAGES="$PACKAGES luci-app-daed"
+#PACKAGES="$PACKAGES luci-i18n-daed-zh-cn"
 
-PACKAGES="$PACKAGES luci-app-ssr-plus"
-PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
+#PACKAGES="$PACKAGES luci-app-ssr-plus"
+#PACKAGES="$PACKAGES luci-i18n-ssr-plus-zh-cn"
 
-PACKAGES="$PACKAGES luci-app-nikki"
-PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
+#PACKAGES="$PACKAGES luci-app-nikki"
+#PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
 
 
 
